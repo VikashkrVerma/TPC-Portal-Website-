@@ -1,0 +1,102 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select,
+  textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  select[multiple] {
+    height: 120px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Specific styles */
+  
+  .criteria-heading {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .cpi-input {
+    width: 100px;
+  }
+  
+  .location-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .mode-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .position-input {
+    margin-top: 30px;
+  }
+  
+  /* Styles for specific company types */
+  
+  .tech-company .company-type {
+    color: #1abc9c;
+  }
+  
+  .finance-company .company-type {
+    color: #3498db;
+  }
+  
+  .core-company .company-type {
+    color: #9b59b6;
+  }
+  
