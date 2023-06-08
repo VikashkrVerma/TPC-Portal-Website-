@@ -1,5 +1,5 @@
 # TPC-Portal-Website-
- A group project using  PHP, SQL,HTML  and CSS for IITP Training and Placement Cell (TPC ) Portal Website Development.
+ A group project in Semester IV - Database Management Systems Course under Professor  Dr Samrat  Mandal using  PHP, SQL,HTML  and CSS for IITP Training and Placement Cell (TPC ) Portal Website Development.
  
  The project is deployable at localhost. The index.php is the index page, and the other .php files make up the functionalities.
  The website has three main sections-Company,Student and Alumni.
